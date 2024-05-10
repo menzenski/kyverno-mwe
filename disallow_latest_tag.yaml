@@ -11,8 +11,6 @@ spec:
       - resources:
           kinds:
           - Pod
-        clusterRoles:
-        - cluster-admin
     validate:
       message: "An image tag is required."  
       pattern:
